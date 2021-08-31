@@ -1,0 +1,126 @@
+  
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Header */
+
+.header {
+    display: grid;
+    grid-template-columns: 2fr 15vw;
+    grid-template-rows: 10vh 5vh 5vh 11vh;
+    background: rgb(12,31,124);
+    background: linear-gradient(90deg, rgb(45, 46, 48) 0%, rgb(84, 85, 117) 32%, rgb(59, 47, 233) 100%);
+}
+
+.photo-header {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    width: 100%;
+    max-height: 100%;
+}
+
+.name {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: #FFFFFF;
+    margin-left: 2vw;
+    font-size: 4em;
+}
+
+.boulot {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    color: #FFFFFF;
+    margin-left: 2vw;
+    font-size: 2em;
+}
+
+/* Corps du site */
+
+.main {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 5vh 20vh 5vh 40vh;
+}
+
+.h2-main {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: rgb(0,0,0);
+    background: linear-gradient(18deg, rgb(117, 41, 41) 0%, rgb(245, 62, 62) 47%, rgb(116, 50, 50) 100%);
+    text-align: center;
+    margin: 0;
+    padding-top: 0.5vh;
+}
+
+.Formation-main {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.h2-ecole {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: rgb(0,0,0);
+    background: linear-gradient(18deg, rgb(117, 41, 41) 0%, rgb(245, 62, 62) 47%, rgb(116, 50, 50) 100%);
+    text-align: center;
+    margin: 0;
+    padding-top: 0.5vh;
+}
+
+.sch {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+/* Aside bar */
+
+.info {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    text-align: center;
+    background: rgb(231,231,231);
+}
+
+.info-perso {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-bottom: 1px black solid;
+}
+
+ul, li, a {
+    padding: 0.5vh 0 0.5vh 1vw;
+    text-align: left;
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.9em;
+}
+
+.qualite {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-bottom: 1px black solid;
+}
